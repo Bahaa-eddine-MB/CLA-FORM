@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLA FORM</title>
+</head>
+
+
+
+<body>
+    <fieldset>
+
+        <form>
+
+            <section>
+                <label for="date">Session Date:</label>
+                <input type="date" name="date" id="date">
+                <label for="subject">Subject</label>
+                <select name="subject" id="subject">Other
+                    <option value="algeria">Subject 1</option>
+                    <option value="tunisia">Subject 2</option>
+                    <option value="morocco">Subject 3</option>
+                </select>
+            </section>
+
+            <section>
+                <p>Please mention any topics you would like to ask further questions or gather more information on.</p>
+                <textarea name="topics" id="topics" cols="30" rows="5"></textarea>
+                <div>
+                    Do you study at home
+                    <input type="radio" name="home" id="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="home" id="no">
+                    <label for="no">No</label>
+                </div>
+
+                <div>
+                    What are you seeking more information on these topics ?
+                </div>
+                <br>
+                <div>
+                    <div>
+                        <input type="checkbox" name="1" id="1">
+                        <label for="1">I am interested in a more in depth discussion</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="2" id="2">
+                        <label for="2">I didnt understand it in the session</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="3" id="3">
+                        <label for="3">Phone apps</label>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <br>
+                <br>
+                <div>
+                    <label for="scale1">On a scale of 1 to 5*,please indicate how informative you felt the
+                        session.</label>
+                    <input type="text" name="scale1" id="scale1">
+                </div>
+                <br>
+                <div>
+                    <label for="scale2">On a scale of 1 to 5*,please indicate how ingaging you felt the
+                        session.</label>
+                    <input type="text" name="scale2" id="scale2">
+                </div>
+                <br>
+                <div>
+                    <label for="scale3">On a scale of 1 to 5*,please indicate how likely you feel it is that you would
+                        recommend the course to a friend.</label>
+                    <input type="text" name="scale3" id="scale3">
+                </div>
+                <br>
+                <br>
+                <div>
+                    <p> Please use this space to give us any other feedback you may have.</p>
+                    <textarea name="feedback" id="feedback" cols="30" rows="5"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email Address:</label>
+                    <input type="text" name="email" id="email" placeholder="example@gmail.com">
+                </div>
+                <br>
+                <div>
+                    <input type="button" value="Submit form">
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+        </form>
+
+    </fieldset>
+</body>
+
+</html>
